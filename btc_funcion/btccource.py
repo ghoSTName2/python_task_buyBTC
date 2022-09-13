@@ -1,6 +1,6 @@
 def btccurce(course, usdt):
     btc = usdt / course
-    print('Course BTC:', course)
-    print('How much BUSD do you have?:', usdt)
-    print('Your BTC:', btc)
-btccurce(10000, 50000)
+    cur_btc = 'Course BTC:', course
+    have_us = 'How much BUSD do you have?:', usdt
+    your_btc = 'Your BTC:', btc
+    return cur_btc, have_us, your_btc
