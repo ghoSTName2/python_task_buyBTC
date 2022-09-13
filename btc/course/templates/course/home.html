@@ -1,0 +1,12 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+<div class="container text-center">
+    <h1>Buy BTC</h1>
+    <form action="{% url 'buybtc' %}">
+        Course: <input type="number" name="course">
+        Usdt: <input type="number" name="usdt">
+        <br>
+        <br>
+        <input type="submit" class="btn btn-primary" value="Buy">
+    </form>
+</div>
